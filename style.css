@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* MOBILE */
+
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+h1{
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+}
+
+h2{
+    color: white;
+}
+
+.lecteur{
+    display: block;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+
+
+
+
+
+
+
+
+/* PC ______________________________________*/  
+@media screen and (min-width: 767px) {
+
+    .lecteur{
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+        margin-top: 100px;
+       
+    }
+
+}
+
+
+  
+  
